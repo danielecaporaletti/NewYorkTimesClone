@@ -13,7 +13,7 @@ function App() {
   const [otherArticle, setOtherArticle] = useState([]);
   // articoli funny da mettere a destra
   const [funnyArticle, setFunnyArticle] = useState([])
-  // articoli delle opinioni da mettere sotto a destra
+  // articoli delle opinioni da mettere in basso a destra
   const [opinionArticles, setOpinionArticles] = useState([]);
 
   const [isLoading, setIsLoading] = useState(true);

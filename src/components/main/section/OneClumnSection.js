@@ -1,8 +1,5 @@
 import ArticleTipe1 from './artclesForSection/ArticleTipe1';
-import ArticleTipe2 from './artclesForSection/ArticleTipe2';
-import ArticleTipe3 from './artclesForSection/ArticleTipe3';
 import ArticleTipe4 from './artclesForSection/ArticleTipe4';
-import Image from '../article/componentsMiniArticle/Image';
 import styles from './OneColumnSection.module.css';
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
