@@ -8,8 +8,8 @@ const Article = ({mainResults}) => {
 
   const [isOneColumn, setIsOneColumn] = useState(false);
 
-  const image = mainResults.articles[0].multimedia[0].url;
-  const copyright = mainResults.articles[0].multimedia[0].copyright;
+  const image = mainResults?.articles[0]?.multimedia[0]?.url;
+  const copyright = mainResults?.articles[0]?.multimedia[0]?.copyright;
 
   const title1 = mainResults.articles[0].title;
   const content1 = mainResults.articles[0].abstract;
