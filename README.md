@@ -53,6 +53,8 @@ The procedure for obtaining weather forecasts deserves special attention. To ret
 - [React Router](https://reactrouter.com/) - Library for managing navigation and routes in React applications
 - [Axios](https://github.com/axios/axios) - Library for making HTTP requests
 
+---
+
 <a id="italian"></a>
 **VERSIONE ITALIANA**
 
