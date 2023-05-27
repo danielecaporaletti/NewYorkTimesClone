@@ -1,6 +1,6 @@
 **Note: This document is available in two languages, <a href="#english">English</a> and <a href="#italian">Italian</a>.**
 
-<a href="#english"></a>
+<a id="english"></a>
 **ENGLISH VERSION**
 
 # Local Installation Guide
@@ -53,7 +53,7 @@ The procedure for obtaining weather forecasts deserves special attention. To ret
 - [React Router](https://reactrouter.com/) - Library for managing navigation and routes in React applications
 - [Axios](https://github.com/axios/axios) - Library for making HTTP requests
 
-<a href="#italian"></a>
+<a id="italian"></a>
 **VERSIONE ITALIANA**
 
 # Guida all'installazione locale
