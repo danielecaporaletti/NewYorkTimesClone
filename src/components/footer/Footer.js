@@ -8,11 +8,10 @@ const Footer = () => {
         display: 'flex', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        height: '60px', 
-        position: 'fixed', 
-        left: '0',
-        bottom: '0',
-        width: '100%',
+        height: '60px',  
+        width: 'calc(100% + 6%)',
+        margin: '0 -3% 0 -3%',
+        padding: '0'
     }}>
         NewYorkTimes Clone - Daniele Caporaletti
     </div>

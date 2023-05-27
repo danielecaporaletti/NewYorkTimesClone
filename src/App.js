@@ -4,6 +4,7 @@ import SectionPage from './pages/SectionPage';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -89,6 +90,7 @@ function App() {
   }, []);
 
   return (
+    <>
     <div className='App'>
       <Router>
         <Routes>
@@ -97,6 +99,8 @@ function App() {
         </Routes>
       </Router>
     </div>
+    <Footer />
+    </>
   );
   
 }
