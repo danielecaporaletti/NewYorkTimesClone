@@ -13,7 +13,7 @@ const SearchSection = ({ sectionTitle }) => {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    const apiKey = process.env.REACT_APP_NEW_YORK_TIMES_API_KEY;
+    const apiKey = process.env.bIUGeMWixSxJcdZ7TohSahnP0hC0iBK0;
     // Chiamata axios per ricevere le news della sezione
     axios
       .get(`https://api.nytimes.com/svc/topstories/v2/${sectionTitle}.json?api-key=${apiKey}`)

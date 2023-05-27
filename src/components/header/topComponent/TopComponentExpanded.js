@@ -80,7 +80,7 @@ const TopComponentExpanded = () => {
     try {
       const ipAddress = await getIPAddress();
       const coordinates = await ipToLatLng(ipAddress);
-      const apiKey = process.env.REACT_APP_WEATHER_DATA_API_KEY;
+      const apiKey = process.env.7299cdb7200f633eba627d91b1035d1e;
       const weather = await getWeatherData(coordinates.latitude, coordinates.longitude, apiKey);
       setMeteo({
         icon: weather.icon, 
@@ -94,7 +94,7 @@ const TopComponentExpanded = () => {
   };
 
   const fetchData = async (symbol) => {
-    const API_KEY = process.env.REACT_APP_TWELVE_DATA_API_KEY; // Inserisci la tua chiave API
+    const API_KEY = process.env.c843ddd43f8845c4b3fdc22a55219489; // Inserisci la tua chiave API
 
     try {
       const response = await axios.get(
