@@ -25,7 +25,7 @@ function App() {
   Mette la sottosezione vuota in fondo all'array
   */
   useEffect(() => {
-    const apiKey = "bIUGeMWixSxJcdZ7TohSahnP0hC0iBK0";
+    const apiKey = "REACT_APP_NEW_YORK_TIMES_API_KEY";
     //Chiamata axios per ricevere le news della home
     axios.get(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${apiKey}`)
       .then((response) => {
