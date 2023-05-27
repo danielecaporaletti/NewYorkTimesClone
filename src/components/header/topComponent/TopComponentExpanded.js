@@ -194,7 +194,7 @@ const TopComponentExpanded = () => {
         const intervalId = setInterval(() => {
       index = (index + 1) % data.length;
       fetchData(data[index]);
-    }, 100000000);
+    }, 7000);
 
     return () => {
       clearInterval(intervalId);
